@@ -1,0 +1,37 @@
+body{
+    background-image: url(rustic-beige-concrete-textured-background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
+.cadr{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 2px solid bisque;
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px 3px rgb(144, 142, 142);
+}
+h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #a86030;
+}
+button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 50%; 
+    border: 1px solid transparent;
+    box-shadow: 0 0 20px 0 rgb(144, 142, 142);
+    color: #a86030;
+}
